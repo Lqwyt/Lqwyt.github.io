@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Visit Card</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="card">
+    <!-- Replace with your image URL -->
+    <img
+      src="https://images.unsplash.com/photo-1544717305-2782549b5136?w=200&h=200&fit=crop&crop=faces"
+      alt="Profile photo"
+      class="avatar"
+    />
+
+    <h1 class="name">Alex Johnson</h1>
+    <p class="title">Product Designer · San Francisco</p>
+
+    <div class="contact">
+      <div>📧 <a href="mailto:alex@example.com">alex@example.com</a></div>
+      <div>📱 <a href="tel:+1234567890">+1 (234) 567‑890</a></div>
+      <div>🌐 <a href="https://alexjohnson.design" target="_blank">alexjohnson.design</a></div>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="social">
+      <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+      <a href="https://github.com/yourprofile" target="_blank">GitHub</a>
+      <a href="https://twitter.com/yourhandle" target="_blank">Twitter</a>
+    </div>
+  </div>
+</body>
+</html>
